@@ -59,7 +59,6 @@
   .footer-2-col {
     justify-content: center;
     display: flex;
-    margin: 0 auto;
   }
   .footer-contact-card {
     max-width: 30%;
@@ -145,14 +144,34 @@
 
   /* Mobile breakpoints - I chose a higher amount due to the feel */
   @media screen and (max-width: 850px) {
+    .details-card {
+      display: block;
+    }
+    .footer{
+      line-height: 1.5em;
+    }
+    .footer-2-col {
+      display: block;
+    }
+    .footer-2-col .footer-contact-card {
+      max-width: 100%;
+      padding: 10px 10px;
+    }
+    .footer-copyright-card {
+      max-width: 100%;
+      padding: 10px 10px;
+    }
+    .header-logo img {
+      max-width: 100%;
+    }
     .speaker-details-col {
       margin: 5px;
       flex: 1 1 100%;
     }
     .speakers-container img {
-      max-width: 10%;
+      width: 100px;
     }
-   .speakers-container .info-card .button {
-      max-width: 30%;
+   .info-card .button {
+      max-width: 40%;
     }
   }
