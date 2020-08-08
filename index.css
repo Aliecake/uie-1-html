@@ -1,0 +1,143 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color: #c56c76;
+  }
+  body {
+    background: #F5F3F0;
+    color: #5C626A;
+    font-size: 16px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  h1,
+  h2,
+  h3 {
+    padding: 10px 0;
+  }
+  li {
+    margin: 0 0 1.3em 0;
+  }
+  /* Temp styles */
+  ul {
+    margin: 0px 10px;
+    padding: 20px;
+  }
+  .button {
+    max-width: 70%;
+    background-color: #c56c76;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    padding: 5px;
+  }
+  .details-card {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .details-card-container {
+    flex: 0 1 33%;
+  }
+
+  .details-talks {
+    flex: 0 1 66%;
+  }
+  .footer {
+    width: 100%;
+    background-color: #51525A;
+    color: #fafafa;
+    bottom: 0;
+    margin: 0 auto;
+    display: block;
+  }
+  .footer-2-col {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+  }
+  .footer-contact-card {
+    max-width: 30%;
+    padding: 20px 10px;
+  }
+  .footer-copyright-card {
+    max-width: 30%;
+    padding: 20px 10px;
+  }
+  .footer-image-card .footer-img {
+    clear: both;
+    display: block;
+  }
+  .footer-img {
+    margin: 0 auto;
+    max-width: 20%;
+  }
+  .header {
+    background-color: #5d5c6a;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #F5F3F0;
+    text-align: center;
+    max-height: 130px;
+    padding: 1.8em 24px 1.6em;
+  }
+  .header-location {
+    padding: 10px;
+  }
+  .header-logo img {
+    max-width: 30em;
+  }
+  .info-card {
+    background-color: #ffffff;
+    color: #797166;
+    border: 1px solid rgba(105, 99, 99, 0.244);
+    padding: 15px;
+    height: auto;
+  }
+  .info-card .button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .main-content {
+    margin: 0 auto;
+    padding: 0 24px;
+    max-width: 62em;
+  }
+  .speakers-container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .speakers-container img {
+    float: left;
+    max-width: 33%;
+    border-radius: 7px;
+    margin: 5px;
+  }
+  .speaker-details-col {
+    margin: 5px;
+    flex: 1 1 30%;
+  }
+  .speaker-desc {
+    padding: 5px;
+    /* desc below image */
+    clear: both;
+    display: block;
+  }
+  .speaker-name {
+    padding-top: 5px;
+    font-size: 1.2em;
+    font-weight: bolder;
+  }
+  .speaker-title {
+    padding: 5px;
+    font-size: 1.2em;
+  }
