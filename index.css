@@ -3,8 +3,9 @@
     margin: 0;
     padding: 0;
   }
+  /* chose a darker color for accessibility */
   a {
-    color: #c56c76;
+    color: #a55962;
   }
   body {
     background: #F5F3F0;
@@ -25,9 +26,10 @@
     margin: 0px 10px;
     padding: 20px;
   }
+  /* darker ccolor for accessibility */
   .button {
     max-width: 70%;
-    background-color: #c56c76;
+    background-color: #a55962;
     font-size: 1.2em;
     text-decoration: none;
     color: #fff;
