@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
   }
-  /* chose a darker color for accessibility */
+ 
   a {
-    color: #a55962;
+    color: #C56C76;
   }
   body {
     background: #F5F3F0;
@@ -18,6 +18,9 @@
   h3 {
     padding: 10px 0;
   }
+  h2 {
+    font-size: 1.2em;
+  }
   li {
     margin: 0 0 1.3em 0;
   }
@@ -26,10 +29,10 @@
     margin: 0px 10px;
     padding: 20px;
   }
-  /* darker ccolor for accessibility */
+ 
   .button {
     max-width: 70%;
-    background-color: #a55962;
+    background-color: #C56C76;
     font-size: 1.2em;
     text-decoration: none;
     color: #fff;
@@ -144,7 +147,7 @@
     font-size: 1.2em;
   }
 
-  /* Mobile breakpoints - I chose a higher amount due to the feel */
+  /* Mobile breakpoints - I chose a higher max-width because I felt the cols were too squished. */
   @media screen and (max-width: 850px) {
     .details-card {
       display: block;
