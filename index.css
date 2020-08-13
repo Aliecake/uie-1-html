@@ -92,7 +92,8 @@
     max-height: 130px;
     padding: 1.8em 24px 1.6em;
   }
-  .header-location {
+  .header-location h3 {
+    color: #F5F3F0;
     padding: 10px;
   }
   .header-logo img {
