@@ -7,6 +7,9 @@
   a {
     color: #C56C76;
   }
+  a:hover {
+    color: #d47d87;
+  }
   body {
     background: #F5F3F0;
     color: #797166;
@@ -92,7 +95,8 @@
     max-height: 130px;
     padding: 1.8em 24px 1.6em;
   }
-  .header-location h3 {
+  .header-location {
+    font-size: 1.3em;
     color: #F5F3F0;
     padding: 10px;
   }
